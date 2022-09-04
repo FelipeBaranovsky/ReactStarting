@@ -2,6 +2,6 @@
 First projects with React <br>
 <p>
 01-CitasVeterinaria <br>
-‎ ‎ ‎ ‎ Build tool -> Vite
-‎ ‎ ‎ ‎ Framework CSS -> Tailwindcss
+‎ ‎ ‎ ‎ Build tool -> Vite <br>
+‎ ‎ ‎ ‎ Framework CSS -> Tailwindcss <br>
 </p>
