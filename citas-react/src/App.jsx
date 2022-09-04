@@ -1,3 +1,4 @@
+import {useState,useEffect} from 'react';
 import Formulario from "./components/Formulario"
 import Header from "./components/Header"
 import ListadoPacientes from "./components/ListadoPacientes"
@@ -5,13 +6,49 @@ import ListadoPacientes from "./components/ListadoPacientes"
 
 function App() {
 
+  const [pacientes,setPacientes] = useState([]);
+  const [paciente,setPaciente] = useState({});
+  let boo = false
+
+  useEffect(() => {
+    if(!boo){
+      let pacientesLS = window.localStorage.getItem('pacientes');
+      if(pacientesLS){
+        pacientesLS = JSON.parse(pacientesLS);
+        console.log(pacientesLS);
+        setPacientes(pacientesLS);
+      }else{
+        setPacientes([]);
+      }
+      
+      boo = true;
+    }
+  },[])
+
+  useEffect(() => {
+    window.localStorage.setItem('pacientes',JSON.stringify(pacientes));
+  },[pacientes])
+
+  const eliminarPaciente = (id) => {
+    const pacientesAct = pacientes.filter(paciente => paciente.id !== id);
+    setPacientes(pacientesAct);
+  }
+
   return (
     <div className = "container mx-auto mt-20">
-      <Header></Header>
-
+      <Header/>
       <div className = "mt-12 md:flex">
-        <Formulario>For</Formulario>
-        <ListadoPacientes></ListadoPacientes>
+        <Formulario
+          pacientes = {pacientes}
+          setPacientes = {setPacientes}
+          paciente = {paciente}
+          setPaciente = {setPaciente}
+        />
+        <ListadoPacientes
+          pacientes = {pacientes}
+          setPaciente = {setPaciente}
+          eliminarPaciente = {eliminarPaciente}
+        />
       </div>
     </div>
   )

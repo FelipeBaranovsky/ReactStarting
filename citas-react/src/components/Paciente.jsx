@@ -1,37 +1,59 @@
 
-const Paciente = () => {
+const Paciente = ({paciente, setPaciente, eliminarPaciente}) => {
+  const {nombre,propietario,email,fecha,sintomas, id} = paciente
+  
+  const handleEliminar = () => {
+    
+    const respuesta = confirm("Estas seguro que deseas eliminar este paciente?");
+    if(respuesta){
+      eliminarPaciente(id)
+    }
+ 
+  }
+
   return (
     <div className="bg-white shadow-md mx-5 my-10 px-5 py-10 rounded-lg">
+
         <p className="font-bold mb-3 text-gray-700 uppercase">
           Nombre: {''}
           <span className="font-normal normal-case">
-            Hook
+            {nombre}
           </span>
         </p>
         <p className="font-bold mb-3 text-gray-700 uppercase">
           Propietario: {''}
           <span className="font-normal normal-case">
-            Hatch
+            {propietario}
           </span>
         </p>
         <p className="font-bold mb-3 text-gray-700 uppercase">
           Email: {''}
           <span className="font-normal normal-case">
-            email@email.com
+            {email}
           </span>
         </p>
         <p className="font-bold mb-3 text-gray-700 uppercase">
           Fecha Alta: {''}
           <span className="font-normal normal-case">
-            10 Diciembre de 2022
+            {fecha}
           </span>
         </p>
         <p className="font-bold mb-3 text-gray-700 uppercase">
           Sintomas: {''}
           <span className="font-normal normal-case">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A pariatur, sit porro atque culpa nemo cumque corrupti quasi dicta repellat quia labore accusantium corporis doloribus vitae asperiores minima nam ipsam.
+            {sintomas}
           </span>
         </p>
+
+        <div className="flex justify-between mt-10">
+          <button type="button" className="py-2 px-10 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-lg uppercase" onClick={()=>setPaciente(paciente)}>
+            Editar
+          </button>
+          <button type="button" className="py-2 px-10 bg-red-600 hover:bg-red-700 text-white font-bold rounded-lg uppercase" onClick={handleEliminar}>
+            Eliminar
+          </button>
+        </div>
+
       </div>
   )
 }
