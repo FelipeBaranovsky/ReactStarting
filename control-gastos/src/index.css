@@ -352,6 +352,10 @@ main {
     width: 100%;
 }
 
+.btn-cerrar-modal{
+    cursor: pointer;
+}
+
 .modal .formulario {
     max-width: 80rem;
     width: 40rem;
