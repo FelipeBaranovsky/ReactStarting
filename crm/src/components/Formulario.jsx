@@ -1,8 +1,11 @@
 import {Formik, Form, Field} from 'formik'
+import { useNavigate } from 'react-router-dom'
 import * as Yup from 'yup'
 import Alerta from './Alerta'
 
-const Formulario = () => {
+const Formulario = ({cliente}) => {
+
+    const navigate = useNavigate()
 
     const nuevoClienteSchema = Yup.object().shape({
         nombre: Yup.string().min(3,'El nombre es muy corto').max(20,'El nombre es muy largo').required('El nombre del cliente es obligatorio'),
@@ -12,8 +15,21 @@ const Formulario = () => {
         notas: Yup.string().max(200,'Límite de 200 caracteres superado')
     })
 
-    const handleSubmit = (valores) => {
-        console.log(valores);
+    const handleSubmit = async (valores) => {
+        try{
+            const url = 'http://localhost:4000/clientes'
+            const respuesta = await fetch(url, {
+                method: 'POST',
+                body: JSON.stringify(valores),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            const resultado = await respuesta.json()
+            navigate('/clientes')
+        } catch (e) {
+            console.log('Error');
+        }
     }
 
   return (
@@ -21,20 +37,21 @@ const Formulario = () => {
         <h1 className="text-gray-600 font-bold text-xl uppercase text-center">Agregar Cliente</h1>
         <Formik
             initialValues={{
-                nombre: '',
-                empresa: '',
-                email: '',
-                telefono: '',
-                notas: ''
+                nombre: cliente?.nombre ?? "",
+                empresa: cliente?.empresa ?? "",
+                email: cliente?.email ?? "",
+                telefono: cliente?.telefono ?? "",
+                notas: cliente?.notas ?? ""
             }}
-            onSubmit={(values) => {
-                handleSubmit(values)
+            enableReinitialize={true}
+            onSubmit={async (values, {resetForm}) => {
+                await handleSubmit(values)
+                resetForm()
             }}
 
             validationSchema={nuevoClienteSchema}
         >
             {({errors, touched}) => {
-                console.log(touched);
                 return (
                 <Form className='mt-10'>
                 <div className='mb-4'>
@@ -129,6 +146,10 @@ const Formulario = () => {
         </Formik>
     </div>
   )
+}
+
+Formulario.defaultPorps = {
+    cliente: {}
 }
 
 export default Formulario

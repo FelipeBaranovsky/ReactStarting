@@ -1,3 +1,44 @@
 {
-    "clientes": []
+  "clientes": [
+    {
+      "nombre": "Felipe",
+      "empresa": "IUA",
+      "email": "fbaranovsky@gmail.com",
+      "telefono": "545899911",
+      "notas": "fghfg",
+      "id": 1
+    },
+    {
+      "nombre": "Felipe",
+      "empresa": "IUA",
+      "email": "fbaranovsky@gmail.com",
+      "telefono": "545899911",
+      "notas": "fghfg",
+      "id": 2
+    },
+    {
+      "nombre": "asdfas",
+      "empresa": "IUA",
+      "email": "fbaranovsky@gmail.com",
+      "telefono": "03875899911",
+      "notas": "sada",
+      "id": 3
+    },
+    {
+      "nombre": "claudio",
+      "empresa": "IUA",
+      "email": "fbaranovsky@gmail.com",
+      "telefono": "03875899911",
+      "notas": "",
+      "id": 4
+    },
+    {
+      "nombre": "FelipePro",
+      "empresa": "IUA",
+      "email": "fbaranovsky@gmail.com",
+      "telefono": "545899911",
+      "notas": "fghfg",
+      "id": 5
+    }
+  ]
 }
