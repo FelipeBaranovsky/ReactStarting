@@ -9,7 +9,7 @@
       "id": 1
     },
     {
-      "nombre": "Felipe",
+      "nombre": "cacogamer22",
       "empresa": "IUA",
       "email": "fbaranovsky@gmail.com",
       "telefono": "545899911",
@@ -25,7 +25,7 @@
       "id": 3
     },
     {
-      "nombre": "claudio",
+      "nombre": "GalloClaudio",
       "empresa": "IUA",
       "email": "fbaranovsky@gmail.com",
       "telefono": "03875899911",
@@ -39,6 +39,22 @@
       "telefono": "545899911",
       "notas": "fghfg",
       "id": 5
+    },
+    {
+      "nombre": "Felipe",
+      "empresa": "asd",
+      "email": "fbaranovsky@gmail.com",
+      "telefono": "545899911",
+      "notas": "dsa",
+      "id": 6
+    },
+    {
+      "nombre": "Arturo",
+      "empresa": "asdas",
+      "email": "admin@pgadmin.com",
+      "telefono": "545899911",
+      "notas": "asd",
+      "id": 7
     }
   ]
 }
