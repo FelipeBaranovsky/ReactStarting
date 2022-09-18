@@ -18,3 +18,12 @@ First projects with React <br>
 ‎ ‎ ‎ ‎ Spinner/Loading animation -> https://tobiasahlin.com/spinkit/ <br>
 ‎ ‎ ‎ ‎ API crypto -> https://min-api.cryptocompare.com/documentation <br>
 </p>
+<p>
+04-CRM: https://crmhatchlocal.netlify.app/ (Para verlo se debe desplegar el JSON server)<br>
+‎ ‎ ‎ ‎ Build tool -> Vite <br>
+‎ ‎ ‎ ‎ Framework CSS -> Tailwindcss <br>
+‎ ‎ ‎ ‎ Spinner/Loading animation -> https://tobiasahlin.com/spinkit/ <br>
+‎ ‎ ‎ ‎ API -> https://www.npmjs.com/package/json-server <br>
+‎ ‎ ‎ ‎ Framework Formularios -> Formik (https://formik.org/) & Yup (https://github.com/jquense/yup) <br>
+‎ ‎ ‎ ‎ Routing -> React Router <br>
+</p>
