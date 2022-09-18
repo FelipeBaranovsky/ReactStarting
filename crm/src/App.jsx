@@ -5,21 +5,30 @@ import Inicio from './websites/Inicio'
 import NuevoCliente from './websites/NuevoCliente'
 import EditarCliente from './websites/EditarCliente'
 import VerCliente from './websites/VerCliente'
+import { useNavigate } from "react-router-dom";
 
 function App() {
 
+ 
   return (
-   <BrowserRouter>
-      <Routes>
-        <Route path='/clientes' element={<Layout/>}>
-          <Route index element={<Inicio/>}/>
-          <Route path='nuevo' element={<NuevoCliente/>}/>
-          <Route path='editar/:id' element={<EditarCliente/>}/>
-          <Route path=':id' element={<VerCliente/>}/>
-        </Route>
-      </Routes>
-   </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Layout/>}></Route>
+          <Route path='/clientes' element={<Layout/>}>
+            <Route index element={<Inicio/>}/>
+            <Route path='nuevo' element={<NuevoCliente/>}/>
+            <Route path='editar/:id' element={<EditarCliente/>}/>
+            <Route path=':id' element={<VerCliente/>}/>
+          </Route>
+        </Routes>
+    </BrowserRouter>
+    </>
+   
   )
 }
+
+
+
 
 export default App
