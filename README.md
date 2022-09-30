@@ -32,6 +32,7 @@ First projects with React <br>
 ‎ ‎ ‎ ‎ API & CMS -> Strapi (https://strapi.io/) & Cloudinary (https://cloudinary.com/) <br>
 ‎ ‎ ‎ ‎ BD & Clustering -> MongoDB (https://cloud.mongodb.com/) <br>
 ‎ ‎ ‎ ‎ CSS Modules <br>
+‎ ‎ ‎ ‎ Next Future Images <br>
 </p>
 06-GuitarLA-Remix: <br>
 ‎ ‎ ‎ ‎ Framework -> Remix Run (https://remix.run/) <br>
