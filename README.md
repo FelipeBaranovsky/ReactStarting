@@ -36,4 +36,5 @@ First projects with React <br>
 ‎ ‎ ‎ ‎ Framework -> Remix Run (https://remix.run/) <br>
 ‎ ‎ ‎ ‎ API & CMS -> Strapi (https://strapi.io/) & Cloudinary (https://cloudinary.com/) <br>
 ‎ ‎ ‎ ‎ BD & Clustering -> PostgreSQL & render (https://render.com/) <br>
+‎ ‎ ‎ ‎ Nested Routes <br>
 </p>
