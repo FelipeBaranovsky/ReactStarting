@@ -33,6 +33,7 @@ First projects with React <br>
 ‎ ‎ ‎ ‎ BD & Clustering -> MongoDB (https://cloud.mongodb.com/) <br>
 ‎ ‎ ‎ ‎ CSS Modules <br>
 ‎ ‎ ‎ ‎ Next Future Images <br>
+‎ ‎ ‎ ‎ Data Fetching <br>
 </p>
 06-GuitarLA-Remix: <br>
 ‎ ‎ ‎ ‎ Framework -> Remix Run (https://remix.run/) <br>
