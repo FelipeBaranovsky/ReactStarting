@@ -41,3 +41,9 @@ First projects with React <br>
 ‎ ‎ ‎ ‎ BD & Clustering -> PostgreSQL & render (https://render.com/) <br>
 ‎ ‎ ‎ ‎ Nested Routes <br>
 </p>
+07-Cotizador: https://cotizadorhatch.netlify.app/<br>
+‎ ‎ ‎ ‎ Build tool -> Vite (https://vitejs.dev/) <br>
+‎ ‎ ‎ ‎ Framework CSS -> Tailwindcss (https://tailwindcss.com/) <br>
+‎ ‎ ‎ ‎ Context API -> useContext & createContext <br>
+‎ ‎ ‎ ‎ Memorization Hooks -> useCallback, useMemo and useRef  <br>
+</p>
