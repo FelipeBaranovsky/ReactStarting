@@ -46,4 +46,11 @@ First projects with React <br>
 ‎ ‎ ‎ ‎ Framework CSS -> Tailwindcss (https://tailwindcss.com/) <br>
 ‎ ‎ ‎ ‎ Context API -> useContext & createContext <br>
 ‎ ‎ ‎ ‎ Memorization Hooks -> useCallback, useMemo and useRef  <br>
+‎ ‎ ‎ ‎ Spinner/Loading animation -> https://tobiasahlin.com/spinkit/ <br>
+</p>
+08-Letrasmusica: https://letrasmusicahatch.netlify.app/ (API caida)/<br>
+‎ ‎ ‎ ‎ Build tool -> Vite (https://vitejs.dev/) <br>
+‎ ‎ ‎ ‎ API (caida) -> https://api.lyrics.ovh/v1/
+‎ ‎ ‎ ‎ Spinner/Loading animation -> https://tobiasahlin.com/spinkit/ <br>
+‎ ‎ ‎ ‎ Fetching -> Axios (https://www.npmjs.com/package/axios) <br>
 </p>
