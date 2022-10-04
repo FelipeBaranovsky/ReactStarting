@@ -27,6 +27,7 @@ First projects with React <br>
 ‎ ‎ ‎ ‎ Framework Formularios -> Formik (https://formik.org/) & Yup (https://github.com/jquense/yup) <br>
 ‎ ‎ ‎ ‎ Routing -> React Router <br>
 </p>
+<p>
 05-GuitarLA-NextJS: <br>
 ‎ ‎ ‎ ‎ Framework -> NextJS (https://nextjs.org/) <br>
 ‎ ‎ ‎ ‎ API & CMS -> Strapi (https://strapi.io/) & Cloudinary (https://cloudinary.com/) <br>
@@ -35,12 +36,14 @@ First projects with React <br>
 ‎ ‎ ‎ ‎ Next Future Images <br>
 ‎ ‎ ‎ ‎ Data Fetching <br>
 </p>
+<p>
 06-GuitarLA-Remix: <br>
 ‎ ‎ ‎ ‎ Framework -> Remix Run (https://remix.run/) <br>
 ‎ ‎ ‎ ‎ API & CMS -> Strapi (https://strapi.io/) & Cloudinary (https://cloudinary.com/) <br>
 ‎ ‎ ‎ ‎ BD & Clustering -> PostgreSQL & render (https://render.com/) <br>
 ‎ ‎ ‎ ‎ Nested Routes <br>
 </p>
+<p>
 07-Cotizador: https://cotizadorhatch.netlify.app/<br>
 ‎ ‎ ‎ ‎ Build tool -> Vite (https://vitejs.dev/) <br>
 ‎ ‎ ‎ ‎ Framework CSS -> Tailwindcss (https://tailwindcss.com/) <br>
@@ -48,9 +51,17 @@ First projects with React <br>
 ‎ ‎ ‎ ‎ Memorization Hooks -> useCallback, useMemo and useRef  <br>
 ‎ ‎ ‎ ‎ Spinner/Loading animation -> https://tobiasahlin.com/spinkit/ <br>
 </p>
+<p>
 08-Letrasmusica: https://letrasmusicahatch.netlify.app/ (API caida)/<br>
 ‎ ‎ ‎ ‎ Build tool -> Vite (https://vitejs.dev/) <br>
 ‎ ‎ ‎ ‎ API (caida) -> https://api.lyrics.ovh/v1/
+‎ ‎ ‎ ‎ Spinner/Loading animation -> https://tobiasahlin.com/spinkit/ <br>
+‎ ‎ ‎ ‎ Fetching -> Axios (https://www.npmjs.com/package/axios) <br>
+</p>
+<p>
+09-App de Clima: https://climapphatch.netlify.app/ (Bloqueado por https en netlify)<br>
+‎ ‎ ‎ ‎ Build tool -> Vite (https://vitejs.dev/) <br>
+‎ ‎ ‎ ‎ API clima -> https://openweathermap.org/api <br>
 ‎ ‎ ‎ ‎ Spinner/Loading animation -> https://tobiasahlin.com/spinkit/ <br>
 ‎ ‎ ‎ ‎ Fetching -> Axios (https://www.npmjs.com/package/axios) <br>
 </p>
