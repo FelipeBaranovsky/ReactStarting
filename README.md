@@ -65,3 +65,10 @@ First projects with React <br>
 ‎ ‎ ‎ ‎ Spinner/Loading animation -> https://tobiasahlin.com/spinkit/ <br>
 ‎ ‎ ‎ ‎ Fetching -> Axios (https://www.npmjs.com/package/axios) <br>
 </p>
+<p>
+10-App de Noticias: https://climapphatch.netlify.app/ (Bloqueado por https en netlify)<br>
+‎ ‎ ‎ ‎ Build tool -> Vite (https://vitejs.dev/) <br>
+‎ ‎ ‎ ‎ Framework CSS -> MUI (https://mui.com/) <br>
+‎ ‎ ‎ ‎ API Noticias -> https://newsapi.org/ <br>
+‎ ‎ ‎ ‎ Fetching -> Axios (https://www.npmjs.com/package/axios) <br>
+</p>
