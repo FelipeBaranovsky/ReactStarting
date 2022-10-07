@@ -72,3 +72,9 @@ First projects with React <br>
 ‎ ‎ ‎ ‎ API Noticias -> https://newsapi.org/ <br>
 ‎ ‎ ‎ ‎ Fetching -> Axios (https://www.npmjs.com/package/axios) <br>
 </p>
+11-Buscador de Bebidas sohDA: https://drinkyhatch.netlify.app/
+‎ ‎ ‎ ‎ Build tool -> Vite (https://vitejs.dev/) <br>
+‎ ‎ ‎ ‎ Framework CSS -> React Bootstrap (https://react-bootstrap.github.io/) <br>
+‎ ‎ ‎ ‎ API Bebidas -> https://www.thecocktaildb.com/ <br>
+‎ ‎ ‎ ‎ Fetching -> Axios (https://www.npmjs.com/package/axios) <br>
+</p>
