@@ -1,5 +1,5 @@
 # ReactStarting
-First projects with React <br>
+First projects with React, thanks to Código Con Juan and his React course <br>
 <p>
 01-CitasVeterinaria:  https://citasveterinariahatch.netlify.app/ <br>
 ‎ ‎ ‎ ‎ Build tool -> Vite (https://vitejs.dev/) <br>
@@ -91,6 +91,7 @@ First projects with React <br>
 ‎ ‎ ‎ ‎ Deployment & BD hosting -> https://railway.app/ <br>
 ‎ ‎ ‎ ‎ BD -> mysql (https://www.mysql.com/) <br>
 ‎ ‎ ‎ ‎ BD Manager -> Prisma Studio (https://www.prisma.io/studio) <br>
+‎ ‎ ‎ ‎ Regular Expressions <br>
 </p>
 
 
