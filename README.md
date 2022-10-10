@@ -72,9 +72,25 @@ First projects with React <br>
 ‎ ‎ ‎ ‎ API Noticias -> https://newsapi.org/ <br>
 ‎ ‎ ‎ ‎ Fetching -> Axios (https://www.npmjs.com/package/axios) <br>
 </p>
+<p>
 11-Buscador de Bebidas sohDA: https://drinkyhatch.netlify.app/<br>
 ‎ ‎ ‎ ‎ Build tool -> Vite (https://vitejs.dev/) <br>
 ‎ ‎ ‎ ‎ Framework CSS -> React Bootstrap (https://react-bootstrap.github.io/) <br>
 ‎ ‎ ‎ ‎ API Bebidas -> https://www.thecocktaildb.com/ <br>
 ‎ ‎ ‎ ‎ Fetching -> Axios (https://www.npmjs.com/package/axios) <br>
 </p>
+<p>
+12-Quiosco: https://quioscohatch.up.railway.app/<br>
+‎ ‎ ‎ ‎ Framework -> NextJS (https://nextjs.org/) <br>
+‎ ‎ ‎ ‎ Framework CSS -> Tailwindcss (https://tailwindcss.com/) <br>
+‎ ‎ ‎ ‎ Fetching -> Axios (https://www.npmjs.com/package/axios) <br>
+‎ ‎ ‎ ‎ ORM -> Prisma (https://www.prisma.io/) <br>
+‎ ‎ ‎ ‎ Icons -> https://heroicons.com/ <br>
+‎ ‎ ‎ ‎ Toast -> https://www.npmjs.com/package/react-toastify <br>
+‎ ‎ ‎ ‎ Modal -> https://www.npmjs.com/package/react-modal <br>
+‎ ‎ ‎ ‎ Deployment & BD hosting -> https://railway.app/ <br>
+‎ ‎ ‎ ‎ BD -> mysql (https://www.mysql.com/) <br>
+‎ ‎ ‎ ‎ BD Manager -> Prisma Studio (https://www.prisma.io/studio) <br>
+</p>
+
+
