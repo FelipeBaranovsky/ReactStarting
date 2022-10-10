@@ -37,7 +37,7 @@ First projects with React, thanks to Código Con Juan and his React course <br>
 ‎ ‎ ‎ ‎ Data Fetching <br>
 </p>
 <p>
-06-GuitarLA-Remix: <br>
+06-GuitarLA-Remix: https://guitarla-remix-production-hatch.up.railway.app/ <br>
 ‎ ‎ ‎ ‎ Framework -> Remix Run (https://remix.run/) <br>
 ‎ ‎ ‎ ‎ API & CMS -> Strapi (https://strapi.io/) & Cloudinary (https://cloudinary.com/) <br>
 ‎ ‎ ‎ ‎ BD & Clustering -> PostgreSQL & render (https://render.com/) <br>
