@@ -19,7 +19,7 @@ First projects with React, thanks to Código Con Juan and his React course <br>
 ‎ ‎ ‎ ‎ API crypto -> https://min-api.cryptocompare.com/documentation <br>
 </p>
 <p>
-04-CRM: https://crmhatchlocal.netlify.app/ (Para verlo se debe desplegar el JSON server)<br>
+04-CRM: https://crmhatch.netlify.app/ <br>
 ‎ ‎ ‎ ‎ Build tool -> Vite (https://vitejs.dev/) <br>
 ‎ ‎ ‎ ‎ Framework CSS -> Tailwindcss (https://tailwindcss.com/) <br>
 ‎ ‎ ‎ ‎ Spinner/Loading animation -> https://tobiasahlin.com/spinkit/ <br>
