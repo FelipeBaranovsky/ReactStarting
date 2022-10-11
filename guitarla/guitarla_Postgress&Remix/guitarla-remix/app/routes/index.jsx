@@ -44,8 +44,8 @@ export async function loader(){
     posts: posts.data,
     curso: curso.data
   }
-  
-}
+  }
+
 
 function Index() {
   const {guitarras,posts,curso} = useLoaderData()
