@@ -26,6 +26,7 @@ First projects with React, thanks to Código Con Juan and his React course <br>
 ‎ ‎ ‎ ‎ API -> https://www.npmjs.com/package/json-server <br>
 ‎ ‎ ‎ ‎ Framework Formularios -> Formik (https://formik.org/) & Yup (https://github.com/jquense/yup) <br>
 ‎ ‎ ‎ ‎ Routing -> React Router <br>
+‎ ‎ ‎ ‎ Deployment & BD hosting -> https://railway.app/ con strapi <br>
 </p>
 <p>
 05-GuitarLA-NextJS: https://guitarla-next-production-hatch.up.railway.app/ <br>
