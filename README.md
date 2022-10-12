@@ -60,14 +60,14 @@ First projects with React, thanks to Código Con Juan and his React course <br>
 ‎ ‎ ‎ ‎ Fetching -> Axios (https://www.npmjs.com/package/axios) <br>
 </p>
 <p>
-09-App de Clima: https://climapphatch.netlify.app/ (Bloqueado por https en netlify)<br>
+09-App de Clima: https://climapphatch.netlify.app/ (Bloqueado -> modo prod no permitido por api)<br>
 ‎ ‎ ‎ ‎ Build tool -> Vite (https://vitejs.dev/) <br>
 ‎ ‎ ‎ ‎ API clima -> https://openweathermap.org/api <br>
 ‎ ‎ ‎ ‎ Spinner/Loading animation -> https://tobiasahlin.com/spinkit/ <br>
 ‎ ‎ ‎ ‎ Fetching -> Axios (https://www.npmjs.com/package/axios) <br>
 </p>
 <p>
-10-App de Noticias: https://noticiasapihatch.netlify.app/ (Bloqueado por https en netlify)<br>
+10-App de Noticias: https://noticiasapihatch.netlify.app/ (Bloqueado -> modo prod no permitido por api)<br>
 ‎ ‎ ‎ ‎ Build tool -> Vite (https://vitejs.dev/) <br>
 ‎ ‎ ‎ ‎ Framework CSS -> MUI (https://mui.com/) <br>
 ‎ ‎ ‎ ‎ API Noticias -> https://newsapi.org/ <br>
