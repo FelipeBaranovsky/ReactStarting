@@ -1,7 +1,7 @@
 import styles from './styles/index.css'
 import Header from './components/header'
 import Footer from './components/footer'
-
+import { useState, useEffect } from 'react'
 import{
   Meta,
   Links,
@@ -11,7 +11,6 @@ import{
   useCatch,
   Link
 } from '@remix-run/react'
-
 
 export function meta(){
   return (
@@ -50,9 +49,50 @@ export function links(){
 }
 
 export default function App() {
+  const carritoLS = typeof window !== 'undefined' ? JSON.parse(localStorage.getItem('carrito')) ?? [] : null
+  const [carrito, setCarrito] = useState(carritoLS)
+
+  useEffect(() => {
+    localStorage.setItem('carrito',JSON.stringify(carrito))
+  }, [carrito])
+  
+
+  const agregarCarrito = (guitarra) => {
+    if(carrito.some(guitarraState => guitarraState.id === guitarra.id)){
+      const carritoAct = carrito.map(guitarraState => {
+        if(guitarraState.id === guitarra.id){
+          guitarraState.cantidad = guitarra.cantidad
+        }
+        return guitarraState
+      })
+      setCarrito(carritoAct)
+    }else {
+      setCarrito([...carrito,guitarra])
+    }
+  }
+  const actCantidad = guitarra => {
+    const carritoAct = carrito.map(guitarraState => {
+      if(guitarraState.id === guitarra.id) {
+        guitarraState.cantidad = guitarra.cantidad
+      }
+      return guitarraState
+    })
+    setCarrito(carritoAct)
+  }
+  const eliminarGuitarra = id => {
+    const carritoAct = carrito.filter(guitarraState => guitarraState.id !== id)
+    setCarrito(carritoAct)
+  }
   return (
     <Document>
-      <Outlet/>
+      <Outlet
+        context={{
+          agregarCarrito,
+          carrito,
+          actCantidad,
+          eliminarGuitarra
+        }}
+      />
     </Document>
   );
 }

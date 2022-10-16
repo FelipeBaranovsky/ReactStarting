@@ -60,6 +60,7 @@
 .header .navegacion {
     margin-top: 5rem;
     display: flex;
+    align-items: center;
     gap: 2rem;
 }
 @media (min-width: 768px) {
@@ -76,6 +77,9 @@
     padding: .5rem;
     transition-property: background-color;
     transition-duration: .3s;
+}
+.header .navegacion img {
+  width: 3rem;
 }
 .header .navegacion a:hover,
 .header .active {
@@ -111,6 +115,9 @@
     font-size: 2.2rem;
     text-decoration: none;
     font-weight: 700;
+}
+.footer .navegacion a:last-of-type {
+  display: none;
 }
 .footer .copyright {
     text-align: center;
