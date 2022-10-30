@@ -81,7 +81,7 @@ First projects with React, thanks to Código Con Juan and his React course <br>
 ‎ ‎ ‎ ‎ Fetching -> Axios (https://www.npmjs.com/package/axios) <br>
 </p>
 <p>
-12-Quiosco: https://quioscohatch.up.railway.app/<br>
+12-Quiosco: https://quioscohatch.herokuapp.com/<br>
 ‎ ‎ ‎ ‎ Framework -> NextJS (https://nextjs.org/) <br>
 ‎ ‎ ‎ ‎ Framework CSS -> Tailwindcss (https://tailwindcss.com/) <br>
 ‎ ‎ ‎ ‎ Fetching -> Axios (https://www.npmjs.com/package/axios) <br>
@@ -89,8 +89,8 @@ First projects with React, thanks to Código Con Juan and his React course <br>
 ‎ ‎ ‎ ‎ Icons -> https://heroicons.com/ <br>
 ‎ ‎ ‎ ‎ Toast -> https://www.npmjs.com/package/react-toastify <br>
 ‎ ‎ ‎ ‎ Modal -> https://www.npmjs.com/package/react-modal <br>
-‎ ‎ ‎ ‎ Deployment & BD hosting -> https://railway.app/ <br>
-‎ ‎ ‎ ‎ BD -> mysql (https://www.mysql.com/) <br>
+‎ ‎ ‎ ‎ Deployment & BD hosting -> https://www.heroku.com/ <br>
+‎ ‎ ‎ ‎ BD -> postgres (https://render.com/) <br>
 ‎ ‎ ‎ ‎ BD Manager -> Prisma Studio (https://www.prisma.io/studio) <br>
 ‎ ‎ ‎ ‎ Regular Expressions <br>
 </p>
